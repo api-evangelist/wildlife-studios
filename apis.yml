@@ -1,8 +1,26 @@
 aid: wildlife-studios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wildlife-studios.png
 name: Wildlife Studios
-description: 'Wildlife Studios is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Wildlife Studios is one of the world''s largest mobile game developers and
+  publishers, founded in Brazil in 2011. It builds and operates free-to-play games played
+  globally, with more than 4.7 billion downloads across a portfolio of over 60 titles including
+  Zooba, Sniper 3D, Tennis Clash, War Machines, and Sky Warriors, and runs a publishing division
+  for third-party studios. Wildlife is a consumer gaming company: its public surface is
+  player-facing games and corporate/careers content, not a developer platform. As of this
+  enrichment pass it publishes no public developer portal, API documentation, OpenAPI/AsyncAPI
+  specification, SDKs, or MCP server. Surfaced as a portfolio company of bessemer-venture-partners
+  and tracked in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/wildlife-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Games
+- Entertainment
+- Game Publishing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/wildlife-studios-domain-security.yml
 - type: Website
   url: https://www.wildlifestudios.com/
+- type: TermsOfService
+  url: https://wildlifestudios.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://wildlifestudios.com/privacy-policy/
+- type: Blog
+  url: https://newsroom.wildlifestudios.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
